@@ -61,7 +61,7 @@ fi
 
 mv /var/www/html/index.html /var/www/html/index.html.orig
 
-printf '<html><title>The answer to the 40th question '\
+printf '<html><title>The answer to the 40th question %s %s'\
  'of DevOps GL BaseCamp IRC168976 Selection Test</title>'\
  '<body>Volodymyr Poddubetskyi</body></html>' > /var/www/html/index.html
 
